@@ -18,5 +18,12 @@ int main() {
 
     cout << obj.num << endl;
     cout << obj.name << endl;
+
+    //creating multiple objects
+
+    Myclass obj2;
+    obj2.num = 78;
+    obj2.name = "peter";
+
     return 0;
 }
